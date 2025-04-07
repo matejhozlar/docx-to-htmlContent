@@ -62,7 +62,7 @@ Download HTML: Saves the rendered HTML as a .html file
 convert-docx-to-html.js
 Optional Node.js script to pre-convert .docx to HTML:
 
-bash```
+```bash
 Copy
 Edit
 node convert-docx-to-html.js
