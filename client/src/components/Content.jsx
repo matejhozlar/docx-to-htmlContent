@@ -40,7 +40,6 @@ const Content = () => {
       if (!container) return;
 
       const headers = Array.from(container.querySelectorAll("h1"));
-      const scrollY = window.scrollY;
 
       const visibleHeaders = headers.filter((header) => {
         const rect = header.getBoundingClientRect();
@@ -70,9 +69,25 @@ const Content = () => {
         <ul>
           {headings.map(({ id, text }) => (
             <li key={id}>
-              <a href={`#${id}`} className={activeId === id ? "active" : ""}>
+              <button
+                className={`sidebar-link ${activeId === id ? "active" : ""}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  const target = document.getElementById(id);
+                  if (target) {
+                    window.history.replaceState(null, "", `#${id}`);
+                    window.scrollTo({
+                      top:
+                        target.getBoundingClientRect().top +
+                        window.scrollY -
+                        20,
+                      behavior: "smooth",
+                    });
+                  }
+                }}
+              >
                 {text}
-              </a>
+              </button>
             </li>
           ))}
         </ul>

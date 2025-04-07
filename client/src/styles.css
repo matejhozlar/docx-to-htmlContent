@@ -81,3 +81,26 @@ html {
   list-style: none;
   padding-left: 0;
 }
+
+.sidebar-link {
+  background: none;
+  border: none;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  color: #444;
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.sidebar-link:hover {
+  background-color: #e6f0ff;
+}
+
+.sidebar-link.active {
+  background-color: #d0e6ff;
+  font-weight: bold;
+  color: #0077cc;
+}
