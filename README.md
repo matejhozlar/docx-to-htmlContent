@@ -68,3 +68,12 @@ Edit
 node convert-docx-to-html.js
 It reads manual.docx and saves the HTML to public/manual.html.
 ```
+
+## 📂 Example Usage
+Start the app
+
+Click Import DOCX and upload any .docx manual
+
+Scroll through the content — the sidebar will highlight the active section
+
+Click Download HTML to save your converted document
