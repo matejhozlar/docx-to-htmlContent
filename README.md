@@ -27,7 +27,7 @@ This React-based web app allows users to dynamically upload a `.docx` file, conv
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/docx-to-html-viewer.git
+git clone [https://github.com/your-username/docx-to-html-viewer.git](https://github.com/matejhozlar/docx-to-htmlContent.git)
 cd docx-to-html-viewer
 npm install
 npm start
