@@ -37,30 +37,30 @@ npm start
 App.jsx
 Main component that wires everything together:
 
-Handles uploaded HTML state
+- Handles uploaded HTML state
 
-Passes content to Header and Content
+- Passes content to Header and Content
 
-Triggers HTML download
+- Triggers HTML download
 
 ## Content.jsx
-Renders the content area and scrollable sidebar:
+- Renders the content area and scrollable sidebar:
 
-Loads .docx-converted HTML or manual.html
+- Loads .docx-converted HTML or manual.html
 
-Builds a sidebar from all ```<h1>``` elements
+- Builds a sidebar from all ```<h1>``` elements
 
-Handles scrollspy + smooth section jumping
+- Handles scrollspy + smooth section jumping
 
 ## Header.jsx
 Contains UI buttons:
 
-Import DOCX: Triggers file upload and converts to HTML using Mammoth
+- Import DOCX: Triggers file upload and converts to HTML using Mammoth
 
-Download HTML: Saves the rendered HTML as a ```.html``` file
+- Download HTML: Saves the rendered HTML as a ```.html``` file
 
-convert-docx-to-html.js
-Optional Node.js script to pre-convert ```.docx``` to HTML:
+- convert-docx-to-html.js
+- Optional Node.js script to pre-convert ```.docx``` to HTML:
 
 ```bash
 Copy
@@ -70,10 +70,10 @@ It reads manual.docx and saves the HTML to public/manual.html.
 ```
 
 ## 📂 Example Usage
-Start the app
+1. Start the app
 
-Click Import DOCX and upload any ```.docx``` manual
+2. Click Import DOCX and upload any ```.docx``` manual
 
-Scroll through the content — the sidebar will highlight the active section
+3. Scroll through the content — the sidebar will highlight the active section
 
-Click Download HTML to save your converted document
+4. Click Download HTML to save your converted document
