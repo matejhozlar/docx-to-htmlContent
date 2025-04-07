@@ -84,3 +84,6 @@ It reads manual.docx and saves the HTML to public/manual.html.
 - You can customize this easily to support ```<h2>```, ```<h3>```, etc.
 
 - For best results, use structured ```.docx``` files with Word's built-in heading styles.
+
+## 🔐 License
+MIT – use freely, modify openly, contribute happily 😊
