@@ -48,7 +48,7 @@ Renders the content area and scrollable sidebar:
 
 Loads .docx-converted HTML or manual.html
 
-Builds a sidebar from all <h1> elements
+Builds a sidebar from all ```<h1>``` elements
 
 Handles scrollspy + smooth section jumping
 
