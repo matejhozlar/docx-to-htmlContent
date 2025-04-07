@@ -57,10 +57,10 @@ Contains UI buttons:
 
 Import DOCX: Triggers file upload and converts to HTML using Mammoth
 
-Download HTML: Saves the rendered HTML as a .html file
+Download HTML: Saves the rendered HTML as a ```.html``` file
 
 convert-docx-to-html.js
-Optional Node.js script to pre-convert .docx to HTML:
+Optional Node.js script to pre-convert ```.docx``` to HTML:
 
 ```bash
 Copy
@@ -72,7 +72,7 @@ It reads manual.docx and saves the HTML to public/manual.html.
 ## 📂 Example Usage
 Start the app
 
-Click Import DOCX and upload any .docx manual
+Click Import DOCX and upload any ```.docx``` manual
 
 Scroll through the content — the sidebar will highlight the active section
 
