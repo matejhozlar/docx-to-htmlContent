@@ -13,7 +13,6 @@ This React-based web app allows users to dynamically upload a `.docx` file, conv
 - 🧪 Includes a fallback default manual (`manual.html`) if no file is uploaded
 - ⚡ Smooth scrolling and active URL updates
 
----
 
 ## 🔧 Tech Stack
 
@@ -22,7 +21,6 @@ This React-based web app allows users to dynamically upload a `.docx` file, conv
 - Vanilla CSS
 - DOMParser + Scroll logic
 
----
 
 ## 📦 Installation
 
