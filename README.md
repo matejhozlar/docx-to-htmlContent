@@ -77,3 +77,10 @@ It reads manual.docx and saves the HTML to public/manual.html.
 3. Scroll through the content — the sidebar will highlight the active section
 
 4. Click Download HTML to save your converted document
+
+## 📝 Notes
+- Only <h1> headings are currently used for sidebar navigation.
+
+- You can customize this easily to support ```<h2>```, ```<h3>```, etc.
+
+- For best results, use structured ```.docx``` files with Word's built-in heading styles.
