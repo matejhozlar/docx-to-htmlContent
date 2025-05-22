@@ -14,7 +14,7 @@ This React-based web app allows users to dynamically upload a `.docx` file, conv
 - Smooth scrolling and active URL updates
 
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - React
 - Mammoth.js
