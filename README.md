@@ -4,14 +4,14 @@ This React-based web app allows users to dynamically upload a `.docx` file, conv
 
 ---
 
-## ✨ Features
+## Features
 
-- 📂 Upload a `.docx` file and render it in-browser
-- 📜 Auto-generate sidebar Table of Contents from all `<h1>` headings
-- 🧭 Scrollspy highlights the section currently in view
-- 📥 Download the rendered HTML version of the document
-- 🧪 Includes a fallback default manual (`manual.html`) if no file is uploaded
-- ⚡ Smooth scrolling and active URL updates
+- Upload a `.docx` file and render it in-browser
+- Auto-generate sidebar Table of Contents from all `<h1>` headings
+- Scrollspy highlights the section currently in view
+- Download the rendered HTML version of the document
+- Includes a fallback default manual (`manual.html`) if no file is uploaded
+- Smooth scrolling and active URL updates
 
 
 ## 🔧 Tech Stack
@@ -22,7 +22,7 @@ This React-based web app allows users to dynamically upload a `.docx` file, conv
 - DOMParser + Scroll logic
 
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/matejhozlar/docx-to-htmlContent.git
@@ -31,7 +31,7 @@ npm install
 npm start
 ```
 
-## 🧠 How It Works
+## How It Works
 App.jsx
 Main component that wires everything together:
 
@@ -67,7 +67,7 @@ node convert-docx-to-html.js
 It reads manual.docx and saves the HTML to public/manual.html.
 ```
 
-## 📂 Example Usage
+## Example Usage
 1. Start the app
 
 2. Click Import DOCX and upload any ```.docx``` manual
@@ -76,7 +76,7 @@ It reads manual.docx and saves the HTML to public/manual.html.
 
 4. Click Download HTML to save your converted document
 
-## 📝 Notes
+## Notes
 - Only ```<h1>``` headings are currently used for sidebar navigation.
 
 - You can customize this easily to support ```<h2>```, ```<h3>```, etc.
