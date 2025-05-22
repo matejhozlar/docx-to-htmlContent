@@ -83,5 +83,5 @@ It reads manual.docx and saves the HTML to public/manual.html.
 
 - For best results, use structured ```.docx``` files with Word's built-in heading styles.
 
-## 🔐 License
-MIT – use freely, modify openly, contribute happily 😊
+## License
+MIT
